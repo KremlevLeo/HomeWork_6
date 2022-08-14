@@ -17,6 +17,6 @@ double[] lineA = GetCoordinates();
 Console.Write("Enter Line 2 ");
 double[] lineB = GetCoordinates();
 
-double x = (lineA[1] - lineB[1])/(lineA[0]-lineB[0]);
+double x = -(lineA[1] - lineB[1])/(lineA[0]-lineB[0]);
 double y = lineB[0]*x+lineB[1];
 Console.WriteLine($"b1 = {lineA[0]}, k1 = {lineA[1]}, b2 = {lineB[0]}, k2 = {lineB[1]} -> ({x};{y})");
